@@ -78,12 +78,7 @@ a < b: compares the values of a and b (returns true if a is less than b)
 -The only operator in JavaScript that requires three operands.
 -Used as a concise alternative to if-else statements for simple conditional expressions.
 
-Example: if(age >= 18){
-            console.log(adult)
-            }
-         else{
-             console.log(minor)
-             }
+Example: if(age >= 18) ? "Adult" : "Minor";
 
 In JavaScript, when multiple operators appear in a single expression, their order of execution matters. Precedence defines which operator gets evaluated first. Operators with higher precedence are applied before those with lower precedence. This ensures consistent and predictable results.
 
